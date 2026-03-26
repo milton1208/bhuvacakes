@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f5;
+}
+
+header {
+    background: #ff6b81;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #ff6b81;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('https://source.unsplash.com/1200x400/?cake') no-repeat center/cover;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #ff6b81;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background: #ff6b81;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
