@@ -3,53 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhuva Cakes - Trichy</title>
+    <title>Bhuva Cakes - Exclusive Treats</title>
+    <!-- Adding a modern font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Screenshot 2026-03-31 194639.png">
 </head>
 <body>
 
 <header>
-    <h1>BHUVA CAKES</h1>
-    <p>Homemade Cakes & Sweet Treats in Trichy</p>
+    <nav>
+        <div class="logo">BHUVA CAKES</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#exclusive">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 </header>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#products">Products</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <section id="home" class="hero">
-    <h2>Delicious Homemade Cakes 🎂</h2>
-    <p>Birthday Cakes | Brownies | Ice Cream Cakes</p>
-    <button onclick="orderNow()">Order Now</button>
-</section>
-
-<section id="products">
-    <h2>Our Specials</h2>
-    <div class="product-container" id="productList"></div>
-</section>
-
-<section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-        <img src="cake1.webp" />
-        <img src="cake2.jpeg" />
-        <img src="cake3.avif" />
-        <img src="cake4.webp" />
+    <div class="hero-text">
+        <h1>Delicious Cake<br>For Everyone</h1>
+        <p>Experience the finest homemade cakes, crafted with love and fresh ingredients.</p>
+        <button class="primary-btn" onclick="scrollToMenu()">Explore Menu</button>
+    </div>
+    <div class="hero-image">
+        <!-- Circular image representation -->
+        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=80" alt="Delicious berry cake">
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>📍 Trichy</p>
-    <p>📞 +91 98765 43210</p>
-    <button onclick="orderNow()">Order via WhatsApp</button>
+<section id="exclusive">
+    <div class="section-title">
+        <h2>Our Exclusive Cakes</h2>
+        <p>Handcrafted perfection for your special moments</p>
+    </div>
+    <div class="product-container" id="productList">
+        <!-- JavaScript will inject cake cards here -->
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <h2>Ready to Order?</h2>
+    <p>📍 Trichy | 📞 +91 98765 43210</p>
+    <button class="whatsapp-btn" onclick="orderNow('General Order')">Order via WhatsApp</button>
 </section>
 
 <footer>
-    <p>© 2026 Bhuva Cakes | Made with Milkey❤️ </p>
+    <p>© 2026 Bhuva Cakes | Made with ❤️</p>
 </footer>
 
 <script src="script.js"></script>
